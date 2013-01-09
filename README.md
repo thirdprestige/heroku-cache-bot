@@ -25,7 +25,7 @@ SECURE INSTALLATION (5 minutes)
 
 Just set up the app for yourself:
 
-    git clone git@github.com:third-prestige/heroku-cache-bot.git CacheBot
+    git clone git@github.com:thirdprestige/heroku-cache-bot.git CacheBot
     cd CacheBot
     heroku create <prefix>-cache-bot --stack cedar
     git push heroku master
