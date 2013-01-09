@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    excon (0.16.10)
+    heroku-api (0.3.7)
+      excon (~> 0.16.10)
+    kgio (2.7.4)
+    rack (1.4.3)
+    raindrops (0.10.0)
+    unicorn (4.3.1)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  heroku-api
+  rack
+  unicorn
